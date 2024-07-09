@@ -179,3 +179,60 @@ iframe {
     border-radius: 16px;
     margin: 32px;
 }
+.current-goal {
+    margin: 149px auto 111px;
+}
+
+.skill-card {
+    width: 1140px;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    margin: 0px auto;
+}
+.skill {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+}
+.skill h3 {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.skill p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.css-1 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-1{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
