@@ -86,6 +86,11 @@ header {
 
 /*------------------------- END of Header Section ----------------- */
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .inspiration {
     width: 1140px;
     margin: 0px auto;
@@ -108,7 +113,6 @@ header {
 }
 .section-info {
     width: 852px;
-    height: 52px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -117,6 +121,7 @@ header {
     letter-spacing: 0%;
     text-align: center;
     margin: 0px auto 48px;
+    opacity: 0.7;
 }
 .cards {
     display: flex;
@@ -195,7 +200,7 @@ iframe {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     width: 364px;
-    height: 300px;
+    /* height: 300px; */
     padding: 40px;
 }
 .skill h3 {
@@ -216,6 +221,7 @@ iframe {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+    opacity: 0.7;
     margin-top: 8px;
     margin-bottom: 24px;
 }
@@ -270,6 +276,7 @@ iframe {
     font-size: 16px;
     font-weight: 400;
     width: 730px;
+    opacity: 0.7;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
