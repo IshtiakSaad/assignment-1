@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
 }
 
 /*------------------------- Beginning of Header Section ----------------- */
@@ -235,4 +236,94 @@ iframe {
 .js-1{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+.support {
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 313px;
+    margin: 0px auto 80px;
+    box-shadow: 0px 0px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+.support-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px auto;
+}
+.support-container h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.support-container p {
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    width: 730px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+input[type="text"] {
+    width: 528px;
+    height: 57px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    margin-right: 16px;
+}
+input[type="submit"] {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    border: none;
+    height: 57px;
+}
+
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 98px;
+    border: 1px solid rgba(13, 19, 33, 0.03);
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
